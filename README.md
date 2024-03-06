@@ -23,3 +23,5 @@
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/71274a7a-83fa-458c-b31a-39e1ae46aead)
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/40940c7d-3423-404a-8560-118fb16ead12)
+
+![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/cfcd85df-71f0-47ef-a72b-4f9735085db8)
