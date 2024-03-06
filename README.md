@@ -5,3 +5,5 @@
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/04ddaef7-71d6-427d-87a4-7be93a959f85)
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/ea9a783f-b1e6-4dbb-a3e9-acdf42bcd15b)
+
+![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/986eafbd-7ebd-4482-aabb-8d34216dd45e)
