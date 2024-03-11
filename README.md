@@ -14,20 +14,24 @@
 - Ensure that both VMs are in the same Vnet by checking the topology with Network Watcher
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/f38d145e-b676-428c-8703-e2c94fa42573)
+- Login into Client-1 with Remote Desktop
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/c5e34753-de22-4a10-b8ac-97437af16a73)
-
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/4a2ee6a5-5fa8-4c87-a386-63b1690e8899)
+- Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/a455ac4b-1ca4-4d85-b75d-162c502c0304)
+- Check back at Client-1 to see if can ping to DC-1's private IP address
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/b5a921a2-7f66-42c9-a8a9-c281e05ed92c)
-
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/e2dc4ddf-48b2-4041-ae32-3833811ebe77)
+- Login to DC-1 and install Active Directory Domain Services
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/71274a7a-83fa-458c-b31a-39e1ae46aead)
+- Promote as a DC: Setup a new forest as mydomain.com
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/40940c7d-3423-404a-8560-118fb16ead12)
+- Restart and then log back into DC-1 as user: mydomain.com\(username)
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/cfcd85df-71f0-47ef-a72b-4f9735085db8)
 
