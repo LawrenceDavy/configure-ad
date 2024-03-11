@@ -1,12 +1,17 @@
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/226632af-8eed-470f-995d-a331042e6b75)
+- Create the Domain Controller VM (Windows Server 2022) named “DC-1”
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/e3fe660f-8131-4559-92d7-60ac24f550a3)
+- Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/04ddaef7-71d6-427d-87a4-7be93a959f85)
+- Set Domain Controller’s NIC Private IP address to be static
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/ea9a783f-b1e6-4dbb-a3e9-acdf42bcd15b)
+- Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created for "DC-1"
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/986eafbd-7ebd-4482-aabb-8d34216dd45e)
+- Ensure that both VMs are in the same Vnet by checking the topology with Network Watcher
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/f38d145e-b676-428c-8703-e2c94fa42573)
 
