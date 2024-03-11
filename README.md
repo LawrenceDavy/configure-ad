@@ -107,31 +107,47 @@
 <br>
 <br>
 
-<h2>Join Client-1 to your domain (mydomain.com)</h2>
+<h2>5. Join Client-1 to your domain (mydomain.com)</h2>
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/12e989ea-5ac7-4afc-b42e-8cb74f593dba)
 - From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
 - From the Azure Portal, restart Client-1
+
+<hr>
+<br>
+
   
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/e0073945-31f3-4221-bd74-1bab62d61c2d)
 - Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
 
-
+<hr>
+<br>
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/b534da6d-6775-418e-9436-61e7dcb12194)
 - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
 
-<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+<br>
+<br>
+
+<h2>6. Setup Remote Desktop for non-administrative users on Client-1</h2>
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/a3bf9ad5-3c7f-4640-afe9-b81b1f043de3)
 - Log into Client-1 as mydomain.com\jane_admin and open system properties
+
+<hr>
+<br>
+
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/a3f3c502-1368-4f0f-943d-07f3ca441614)
 - Click “Remote Desktop”
 - Allow “domain users” access to remote desktop
 - You can now log into Client-1 as a normal, non-administrative user now
 
-<h2>Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
+<hr>
+<br>
+
+
+<h2>7. Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
 
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/f99e411e-70d8-44e9-88db-d53d003341c4)
 - Login to DC-1 as jane_admin
@@ -139,9 +155,15 @@
 - Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 - Run the script and observe the accounts being created
 
+<hr>
+<br>
+
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/f6a38ccb-6eaa-418a-9547-383b7911d61e)
 - When finished, open ADUC and observe the accounts in the appropriate OU
 
+<hr>
+<br>
+
 ![image](https://github.com/LawrenceDavy/configure-ad/assets/24421979/6eb39a09-43d3-4976-962d-2ad89aa597ed)
-- Into Client-1 with one of the accounts (take note of the password in the script)
+- Log into Client-1 with one of the accounts (take note of the password in the script)
 
