@@ -1,3 +1,21 @@
+# Active Directory Domain in Azure
+
+Independent project: domain controller and domain-joined client running on Azure VMs.
+
+## What was done
+- Deployed Windows Server domain controller on Azure
+- Domain-joined a client machine
+- Created users and groups with PowerShell
+- Configured shared-folder permissions
+- Documented the full process including troubleshooting steps
+
+## Purpose
+Proof of systems thinking, independent learning and documentation discipline.  
+Not a data or analytics project.
+
+---
+
+
 <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
