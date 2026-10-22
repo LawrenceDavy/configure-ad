@@ -14,8 +14,7 @@ Independent project: domain controller and domain-joined client running on Azure
 - Documented the full process including connectivity checks and verification steps
 
 ## Purpose
-Proof of systems thinking, independent learning and documentation discipline.  
-This remains an infrastructure project. Its value is evidence of structured problem-solving and clear written documentation — not a data or analytics project.
+A personal practice lab for configuring a small Windows domain and verifying connectivity, DNS, user accounts and access. Not a production domain design.
 
 ## Tools & technologies used
 - Microsoft Azure (Virtual Machines, Virtual Network, Network Watcher)
@@ -37,22 +36,6 @@ User-generation script adapted from:
 <p align="center">
   <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo" width="200"/>
 </p>
-
-# On-premises Active Directory Deployed in the Cloud (Azure)
-
-This project documents the implementation of on-premises Active Directory Domain Services running on Azure Virtual Machines.
-
-## Environments and Technologies Used
-- Microsoft Azure (Virtual Machines / Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
-
-## Operating Systems Used
-- Windows Server 2022
-- Windows 10 (21H2)
-
----
 
 ## 1. Setup Resources in Azure
 
